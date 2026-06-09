@@ -1,0 +1,34 @@
+# PHP
+*.php~
+*.phps
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project
+node_modules/
+dist/
+build/
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/backup-*
+wp-content/cache/
+
+# Composer
+vendor/
+composer.lock
+
+# Logs
+debug.log
+*.log
