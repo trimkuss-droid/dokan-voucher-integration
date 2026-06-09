@@ -3,7 +3,7 @@
  * Plugin Name: Dokan Voucher Integration
  * Plugin URI: https://uzsakykmasaza.lt/
  * Description: Integruoja WooCommerce PDF Vouchers su Dokan - leidžia parduotuvėms patvirtinti dovanų kuponus
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Dokan Team
  * License: GPL v2 or later
  * Text Domain: dokan-voucher-integration
@@ -11,7 +11,7 @@
  * Requires at least: 5.0
  * Requires PHP: 7.4
  * WC requires at least: 4.0
- * Dokan requires at least: 3.0
+ * Dokan requires at least: 5.0
  */
 
 if (!defined('ABSPATH')) {
@@ -20,7 +20,7 @@ if (!defined('ABSPATH')) {
 
 define('DVI_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('DVI_PLUGIN_URL', plugin_dir_url(__FILE__));
-define('DVI_PLUGIN_VERSION', '1.0.0');
+define('DVI_PLUGIN_VERSION', '1.0.1');
 
 // Išjungiame, jei Dokan neįdiegtas
 add_action('plugins_loaded', function() {
