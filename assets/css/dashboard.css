@@ -1,0 +1,117 @@
+/* Dokan Voucher Integration Dashboard Styles */
+
+.dokan-voucher-panel {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.dokan-voucher-panel .dokan-panel-heading {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 4px 4px 0 0;
+}
+
+.dokan-voucher-panel .dokan-panel-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.dokan-voucher-panel .dokan-panel-title i {
+    margin-right: 8px;
+    color: #007bff;
+}
+
+.dokan-voucher-panel .dokan-panel-body {
+    padding: 20px;
+}
+
+#dvi-voucher-form .form-group {
+    margin-bottom: 15px;
+}
+
+#dvi-voucher-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+#dvi-voucher-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#dvi-voucher-form .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+#dvi-submit-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+#dvi-submit-btn:hover {
+    background-color: #218838;
+}
+
+#dvi-submit-btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+#dvi-submit-btn i {
+    margin-right: 5px;
+}
+
+#dvi-voucher-message {
+    padding: 12px;
+    border-radius: 4px;
+    display: none;
+}
+
+#dvi-voucher-message.success {
+    display: block;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+#dvi-voucher-message.error {
+    display: block;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.dvi-loading {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    animation: dvi-spin 1s linear infinite;
+    margin-right: 5px;
+}
+
+@keyframes dvi-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
